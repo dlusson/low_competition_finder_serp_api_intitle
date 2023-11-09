@@ -110,7 +110,7 @@ if submitted:
         st.stop()
 
     # create allintitle and phrase matches
-    df_comp['allintitle_kw_temp'] = "allintitle: " + df_comp['Keyword']
+    df_comp['allintitle_kw_temp'] = "intitle: " + df_comp['Keyword']
     df_comp['quoted_kw_temp'] = '"' + df_comp['Keyword'] + '"'
 
     # extend kw list with allintitle and phrase matches
